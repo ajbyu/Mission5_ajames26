@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Andrew's Site</title>
+
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="img/icon/icons8-martian-120.png" />
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom_header" id="mainNav"><b>&nbsp; Andrew James </b></nav>
+
+    <div class="container custom_container">
+        <div class="box top_left">
+            <h5><b>IS 415</b></h5>
+            <p>My hope for IS 413 is that I can gain more skills in C# and ASP.NET. I have finished my first two projects at work, and the next major thing that all the engineers will be involved in
+            will be an ASP.NET project. I hope to have the skills to participate in that and to attract the attention of future employers.</p>
+            
+            <br />
+
+            <h5><b>Careers</b></h5>
+            <p>I have several careers that I'm interested are the following:
+                <ul>
+                    <li>Medical Technology software development</li>
+                    <li>Product Management</li>
+                    <li>Social Change with Technology</li>
+                </ul>
+            </p>
+        </div>
+        <br />
+
+        <div class="box top_right">
+            <h5><b>Hobby</b></h5>
+            <div>
+                I love hiking. This is a picture of me, my wife, and some friends on a hike last summer.
+            </div>
+            <br />
+            <img style="width: 100%" src="img/HikingPicture.jpg" />
+        </div>
+        <br />
+
+        <div class="box bottom_left">
+            <h5><b>Calculator Input</b></h5>
+            <form>
+                <label for="asg">Assignments:</label><br />
+                <input id="asg" class="form-control" /><br />
+                
+                <label for="gp">Group projects:</label><br />
+                <input id="gp" class="form-control" /><br />
+                
+                <label for="qz">Quizzes:</label><br />
+                <input id="qz" class="form-control" /><br />
+                
+                <label for="mt">Midterm:</label><br />
+                <input id="mt" class="form-control" /><br />
+                
+                <label for="fe">Final Exam:</label><br />
+                <input id="fe" class="form-control" /><br />
+                
+                <label for="ix">INTEX:</label><br />
+                <input id="ix" class="form-control" /><br />
+
+                <button id="btnCalc" class="btn btn-primary" type="submit">Calculate</button>
+
+            </form>
+        </div>
+        <br />
+
+        <div class="box bottom_right">
+            <h5><b>Calculator Results</b></h5>
+            <div><span id="gradeResult">Enter your percent grades in the boxes to left to get your grade!</span></div>
+        </div>
+        <br />
+
+    </div>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/gradeCalc.js"></script>
+</body>
+</html>
