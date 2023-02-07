@@ -15,8 +15,6 @@ namespace Mission5_ajames26.Models
         [Range(0, 100)]
         public double FinalExam { get; set; }
         [Range(0, 100)]
-        public double Intex { get; set; }
-
-        public string? LetterGrade { get; set; }
+        public double Intex { get; set; } 
     }
 }
